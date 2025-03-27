@@ -1,0 +1,32 @@
+{
+    "cardápio": [
+        {
+            "id": "1",
+            "salada": "Alface Crespa",
+            "proteina": "Carne de Panela",
+            "acompanhamentos": "Arroz, feijão e Farofa" ,
+            "idrefeicao": "1"
+        },
+        {
+            "id": "2",
+            "salada": "Tomate",
+            "proteina": "Parmediana de Frango",
+            "acompanhamentos": "Arroz e Feijão",
+            "idrefeicao": "1"
+        },
+        {
+            "id": "3",
+            "salada": "Couve com Manga",
+            "proteina": "Escondidinho de Carne Moída",
+            "acompanhamentos": "Arroz e Feijão",
+            "idrefeicao": "1"
+        },
+        {
+            "id": "4",
+            "salada": "Salada de Repolho",
+            "proteina": "Iscas de Carne Grelhada",
+            "acompanhamentos": "Macarrão Alho e Óleo, Arroz e Feijão",
+            "idrefeicao": "1"
+        }
+    ]
+}

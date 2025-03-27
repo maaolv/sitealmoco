@@ -1,0 +1,123 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo Cinza Claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container principal */
+#container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Cabeçalhos */
+h2, h3 {
+    text-align: center;
+    color: #e74c3c; /* Vermelho */
+    margin-bottom: 20px;
+}
+
+/* Input, Select e Button */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Botões com fundo vermelho */
+button {
+    background-color: #e74c3c; /* Vermelho */
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+}
+
+/* Links */
+a {
+    color: #e74c3c; /* Vermelho */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Parágrafo centralizado */
+p {
+    text-align: center;
+}
+
+/* Estilo para a tela de administração */
+#adminPage {
+    text-align: center;
+}
+
+#adminPage ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#adminPage li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#adminPage input[type="text"] {
+    width: 70%;
+}
+
+#adminPage button {
+    background-color: #e74c3c; /* Vermelho */
+}
+
+#adminPage button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+}
+
+/* Estilo dos campos de input */
+input[type="email"], input[type="password"], input[type="text"], select {
+    border: 1px solid #e74c3c; /* Borda vermelha */
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, select:focus {
+    border-color: #c0392b; /* Borda vermelha mais escura ao focar */
+    outline: none;
+}
+
+/* Estilo do fundo da tela de login */
+#login, #cadastro {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Tela de cadastro */
+#cadastro select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Tela de login */
+#login input {
+    margin-bottom: 10px;
+}
